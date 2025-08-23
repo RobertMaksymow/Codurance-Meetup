@@ -5,7 +5,7 @@ test('adds 1 + 2 to equal 3', () => {
   expect(add(1, 2)).toBe(3);
 });
 
-test('Should return 1 when input is 1', () => {
+test('Should take positive integers and outputs their string representation', () => {
   expect(fizzBuzz(1)).toBe(1);
   expect(fizzBuzz(2)).toBe(2);
   expect(fizzBuzz(3)).toBe("Fizz");
