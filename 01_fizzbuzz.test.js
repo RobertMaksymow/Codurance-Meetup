@@ -1,7 +1,7 @@
-import {add} from './fizzbuzz.js';
-import { fizzBuzz } from './fizzbuzz.js';
+import {add} from './01_fizzbuzz.js';
+import { fizzBuzz } from './01_fizzbuzz.js';
 
-test('adds 1 + 2 to equal 3', () => {
+test('Adds 1 + 2 to equal 3', () => {
   expect(add(1, 2)).toBe(3);
 });
 

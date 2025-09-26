@@ -1,4 +1,4 @@
-import {leapYear}  from "./leap-year";
+import {leapYear}  from "./02_leap-year";
 
 describe('Leap Year', () => {
     test('Leap year function exists', () => {
